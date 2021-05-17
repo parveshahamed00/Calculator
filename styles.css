@@ -17,7 +17,7 @@ body{
 h1{
     font-size: 3.5em;
     text-align: start;
-    margin-top: 7%;
+    /* margin-top: 7%; */
     color: white;
 }
 p{
@@ -38,27 +38,40 @@ p{
   width: 300px;
   font-size: 20px;
   height: 40px;
-  font-weight: 500;
+  font-weight: 700;
+  padding-left: 2%;
   
     
 }
 .button{
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 30%;
     margin: 2px 6px;
+    border: solid 2px darkgrey;
 }
 .special{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 40%;
     font-weight: 700;
+    border: solid 2px gray;
+
     
 }
 .container-fluid{
-    padding: 10% 5%;
+    padding: 5% 5%;
     text-align: center;
 }
 form{
   padding-top: 5%;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    font-size: 20px;
+    font-weight: 800;
 }
